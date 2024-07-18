@@ -66,7 +66,7 @@
     background-color: #fff;
     width: 500px;
     border-radius: 8px;
-
+    animation: mainFlip 2s;
 }
 .main h2 {
     margin: 16px 0;
@@ -79,6 +79,18 @@
     font-weight: bold;
 }
 
+@keyframes mainFlip {
+    from{
+        transform: rotatex(90deg)
+        
+       
+    }
+    to {
+        
+        transform: rotatey(0dec);
+        
+    }
+}
 @media (max-width:620px){
     .title{
         font-size: 60px;
